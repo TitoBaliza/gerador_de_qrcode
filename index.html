@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Altenticação</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <main>
+        <h1>Entre para gerar seu QRcode</h1>
+        <section class="container_login">
+            <div class="container_form">
+                <form class="formulario">
+                    <h2>Login</h2>
+                    <input type="text" placeholder="Nome de Usuário" id="login" onchange="mensagemUsuario()">
+                    <div class="mensagemDeErro" id="loginIncorreto">Login Incorreto</div>
+                    <input type="password" placeholder="Sua Senha" id="senha" onchange="mensagemSenha()">
+                <p class="erro"></p>
+                    <button type="button" id="entrar" onclick="logar()" >Entrar</button>
+                    
+
+                </form>
+
+            </div>
+            <img class="imagem_porta" src="./img/qrcode-img.jpg" alt="Porta azul aberta com nuvens saindo">
+
+
+        </section>
+    </main>
+
+    <script src="./script/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gera QR code</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/qrcode.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+        <ul>
+            <li><a href="index.html">Tela de Login</a></li>
+            <li><a href="comprecarro.html">Compre um carro</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+        <div class="containerQrcode">
+            <div class="entradaDeDados">
+                <h1>Escreva para gerar o QR Code</h1>
+                <input type="text" placeholder="Seu texto a ser convertido e precione Enter" id="capturaTexto">
+
+                <div id="erroEspaco">Seu texto não pode conter espaços</div>
+                <div id="campoVasio">Digite algum texto para ser convertido</div>
+            </div>
+            <div class="mostraQRcode" >
+                <img id="imagem_Qrcode" src="./img/qrcode-img.jpg" alt="QR Code na diagonal">
+                <img id="qrcode" src="" class="imgQRcode">
+            </div>
+
+        </div>
+    </main>
+    <script src="./script/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+[
+    {
+        "nome": "Camaro",
+        "modelo": "6.2l V8",
+        "cor": "Amarelo",
+        "fabricacao": 2024,
+        "valor": 500000.00,
+        "cambio": "Manual",
+        "banco_de_couro" : "sim",
+        "Ar_Condicionado": "sim",
+        "direcao_eletrica": "sim",
+        "financia":"sim",
+        "quilometragem": "0km",
+        "quantidade" : 10,
+        "imagem":"./img/camaro.png"
+    },
+    {
+        "nome": "Corola",
+        "modelo": "2.0",
+        "cor": "Branco",
+        "fabricacao": 2024,
+        "valor": 120000.00,
+        "cambio": "Manual",
+        "banco_de_couro" : "sim",
+        "Ar_Condicionado": "sim",
+        "direcao_eletrica": "sim",
+        "financia":"sim",
+        "quilometragem": "0km",
+        "quantidade" : 0,
+        "imagem":"./img/corola.png"
+    },
+    {
+        "nome": "Thucson",
+        "modelo": "2.0",
+        "cor": "Azul",
+        "fabricacao": 2024,
+        "valor": 120000.00,
+        "cambio": "Manual",
+        "banco_de_couro" : "sim",
+        "Ar_Condicionado": "sim",
+        "direcao_eletrica": "sim",
+        "financia":"sim",
+        "quilometragem": "0km",
+        "quantidade" : 0,
+        "imagem":"./img/hiunday.png"
+    },
+    {
+        "nome": "Gol",
+        "modelo": "1.0",
+        "cor": "Vermelho",
+        "fabricacao": 2024,
+        "valor": 80000.00,
+        "cambio": "Automatico",
+        "banco_de_couro" : "sim",
+        "Ar_Condicionado": "sim",
+        "direcao_eletrica": "sim",
+        "financia":"sim",
+        "quilometragem": "0km",
+        "quantidade" : 0,
+        "imagem":"./img/gol.png"
+    }
+
+]
